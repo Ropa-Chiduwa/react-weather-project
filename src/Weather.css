@@ -4,6 +4,11 @@
   padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 1%,
+    rgb(212, 223, 240) 60.6%
+  );
 }
 
 .Weather h1 {
@@ -46,4 +51,7 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+a {
+  text-decoration: none;
 }
